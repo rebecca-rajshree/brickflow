@@ -45,6 +45,9 @@ pydantic = ">=1.10.0 <3.0.0"
 python-decouple = "3.8"
 pyyaml = "^6.0"
 requests = ">=2.28.2 <3.0.0"
+delta-spark = "~2.4.0"
+pyspark = "~3.4.0"
+
 # cerberus-python-client = {version = "~2.5.4",  optional = true } # Users might have to manually install cerberus-python-client if required
 # tableauserverclient = {version = "~0.25", optional = true } # Users might have to manually install tableauserverclient if required
 
