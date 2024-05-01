@@ -30,8 +30,12 @@ class LastTableUpdateSensor:
         """
         Parameters
         ----------
-        table: DeltaTableStep
-            DeltaTableStep class pointing to the existing object in the Unity Catalog
+        catalog: str
+            Catalog name
+        database: str
+            Database name
+        table: str
+            Table name pointing to the existing object in the Unity Catalog
         execution_timestamp: Union[str, datetime, int]
             The timestamp of the execution as provided by the workflow
         time_delta: Union[dict, timedelta]
