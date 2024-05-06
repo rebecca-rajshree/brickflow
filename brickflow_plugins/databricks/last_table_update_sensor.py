@@ -51,6 +51,7 @@ class LastTableUpdateSensor:
         self.table = table
 
         table_name = self.catalog + "." + self.database + "." + self.table
+        logging.info(f"Checking the table '{table_name}' for the last update...")
 
         if isinstance(execution_timestamp, str):
             self.execution_timestamp = parse(execution_timestamp)
