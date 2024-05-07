@@ -39,6 +39,7 @@ from brickflow_plugins.databricks.uc_to_snowflake_operator import (
     SnowflakeOperator,
     UcToSnowflakeOperator,
 )
+from brickflow_plugins.databricks.last_table_update_sensor import LastTableUpdateSensor
 
 
 def load_plugins(cache_bust: Optional[pluggy.PluginManager] = None) -> None:
